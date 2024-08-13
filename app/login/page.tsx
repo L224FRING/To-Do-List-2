@@ -1,6 +1,7 @@
 "use client";
 
 import { login, signup } from "./actions";
+import { LoginGoogle } from "./components/loginGoogle";
 
 const page = () => {
   return (
@@ -46,6 +47,7 @@ const page = () => {
           >
             Sign up
           </button>
+          <LoginGoogle></LoginGoogle>
           <span className="block text-sm text-gray-600 mt-4 text-center">
             You will receive a mail after signing up your email to confirm your
             email address.
