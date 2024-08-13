@@ -1,5 +1,5 @@
 "use client";
-import { createClient } from "@/utils/supabase/server";
+import { createClient } from "@/app/supabase/server";
 
 const FetchNotes = () => {};
 

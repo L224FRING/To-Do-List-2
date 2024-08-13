@@ -1,4 +1,4 @@
-import { createClient } from "@/utils/supabase/server";
+import { createClient } from "@/app/supabase/server";
 import { insert, update, remove } from "./crud/actions";
 import { logOut } from "../logOut/actions";
 
