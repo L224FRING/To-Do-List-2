@@ -1,7 +1,7 @@
 const Loading: React.FC = () => {
   return (
     <div>
-      <div></div>
+      <div className="h-screen"></div>
       <p>Loading...</p>
     </div>
   );
