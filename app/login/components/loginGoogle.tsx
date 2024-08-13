@@ -7,7 +7,7 @@ export const LoginGoogle = () => {
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `https://to-do-list-2-c9u3w0v8e-punavs-projects.vercel.app/auth/callback`,
+        redirectTo: `https://to-do-list-2-rust.vercel.app/auth/callback`,
         queryParams: {
           access_type: "offline",
           prompt: "consent",
