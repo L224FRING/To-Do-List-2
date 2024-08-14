@@ -2,7 +2,7 @@
 
 
 
-import { createClient } from '@/app/supabase/server';
+import { createClient } from '@/utils/supabase/server';
 import { revalidatePath } from 'next/cache';
 
 export const insert = async (formData:FormData): Promise<void> => {
